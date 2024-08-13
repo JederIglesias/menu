@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de equivalencias</title>
+</head>
+<body>
+    <h1>TABLA DE EQUIVALENCIAS</h1>
+    <script>
+        let inicio=0;
+        let canti =1000
+
+        inicio=parseFloat(prompt("ingrese el numero de dolares"));
+        while(canti<1000|| canti>100000)
+        {
+   
+            canti=parseFloat(prompt("Ingresa el salario"));
+
+        }
+
+        document.write("______________________________________________________________________<br>");
+        document.write("$------------------------------------BIT-------------------------------AUME<br>");
+        document.write("_______________________________________________________________________<br>");
+
+        while(canti<=inicio)
+        {
+            document.write(canti+"--------------------"+canti/57.810+"----------------------"+canti/3.062+"<br>");
+            document.write("<br><br>");
+
+            canti++
+        }
+        document.write("______________________________________________________________________________<br>");
+
+
+
+        
+
+    </script>
+    
+</body>
+</html>

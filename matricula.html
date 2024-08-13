@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJA DE MATRICULA</title>
+    <link rel="stylesheet" href="matricula.css">
+</head>
+<body>
+    <center>
+    <h1><center> HOJA DE MATRICULA 2025</center></h1>
+    <center><input type="checkbox" value="nuevo"><span>NUEVO INGRESO</span>
+    <input type="checkbox" value="antiguo"><span>ANTIGUO INGRESO</span></center>
+    <br>
+    <br>
+    
+            <label>FECHA DE INSCRIPCION</label>
+            <input type="date" placeholder="dd/mm/aaaa">&emsp;&emsp;&emsp;&emsp;
+            <label>
+                FECHA DE MATRICULA
+            </label>
+            <input type="date" placeholder="dd/mm/aaaa">
+    
+   
+    <fieldset>
+        <legend>1.DATOS GENERALES</legend>
+        <table border="1">
+            <tr>
+             <td>
+                <p>
+                    &emsp; NiVEL EDUCATIVO EN EL&emsp;
+                </p>
+                <p>&emsp;QUE DESEA INGRESAR&emsp;</p>
+             </td>
+             <td>
+                <p>&emsp;<input type="checkbox" value="primer"><span>PRIMER AÑO</span></p> 
+                    <p>&emsp;<input type="checkbox" value="segundo"><span>SEGUNDO AÑO</span></p> 
+                    <p>&emsp;<input type="checkbox" value="tercero"><span>TERCER AÑO </span></p>
+             </td>
+             </td>
+             <td>
+                     <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+             </td>
+            </tr>
+            <tr>
+                <td>
+                     <p>&emsp;&emsp;&emsp;O P C I O N :</p>
+                </td>
+                <td>
+                    <p>&emsp;<input type="checkbox" value="general"><span>GENERAL</span></p> 
+                    <p>&emsp;<input type="checkbox" value="conta"><span>TECNICO VOCACIONAL ADMINISTRATIVO CONTABLE&emsp;</span></p> 
+                    <p>&emsp;<input type="checkbox" value="ds"><span>TECNICO VOCACIONAL DESARROLLO DE SOFTWARE &emsp;</span></p> 
+                    <p>&emsp;<input type="checkbox" value="aps"><span>TECNICO VOCACIONAL ATENCIO PRIMARIA EN SALUD&emsp;</span></p> 
+                    
+                  </td>
+                </td>
+                <td>
+                    <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+            </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend><b> 2. DATOS PERSONALES DEL ESTUDIANTE</b></legend>
+        <label>2.1-N I E:</label>
+        <input type="number" placeholder="Ingresar NIE">&emsp;&emsp;&emsp;
+        <label>Carnet de minoridad N°:</label>
+        <input type="number" placeholder="Ingresar N°">&emsp;&emsp;&emsp;
+        <label> D U I del estudiante N°</label>
+        <input type="number" placeholder="Ingresar DUI">
+        <br>
+        <br>
+        <label>2.2-Apellidos del estudiantes&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Nombre del estudiante </label>
+        <br>
+        <input type="text" placeholder="Primer Apellido">&emsp;&emsp;
+        <input type="text" placeholder="Segundo Apellido">&emsp;&emsp;
+        <input type="text" placeholder="Primer Nombre">&emsp;&emsp;
+        <input type="text" placeholder="Segundo Nombre">&emsp;&emsp;
+        <br>
+        <br>
+        <br>
+        <label>2.3 Lugar y Fecha de nacimiento: </label>
+        <input type="text" placeholder="Lugar">
+        <input type="date" placeholder="dd/mm/aaaa">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Edad:</label>
+        <input type="number" placeholder="Ingresar Edad">
+        <label>Años.</label>
+        <br>
+        <br>
+        <laberl>2.4 Genero:</laberl>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="fem"><span>FEMENINO</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="mas"><span>MASCULINO</span>
+        <br>
+        <br>
+        <label>2.5 Distancia en (km.) de la casa a la Institución:</label>
+        <input type="text" placeholder="km">&emsp;&emsp;&emsp;
+        
+        <label>Estado Civil: </label>&emsp;&emsp;&emsp;
+        <input type="checkbox" value="solt"> <span>SOLTERO/A</span>&emsp;&emsp;
+        <input type="checkbox" value="cas"> <span>CASADO/A</span>&emsp;&emsp;
+        <input type="checkbox" value="div"> <span>DIVORCIADO/A</span>&emsp;&emsp;
+        <input type="checkbox" value="viud"> <span>VIUDO/A</span>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <br>
+</center> 
+    <fieldset>
+        <legend><b>3.DATOS DE RESIDENCIA</b></legend>
+        <label>3.1 Dirección donde reside actualmente:</label>
+        <input type="text" size="140" placeholder="                        
+        Cantón            /               Caserío             /            colonia           /         
+         calle             /   avenida                    " required>
+        <br>
+        <br>
+        <input type="text" size="180" placeholder="  
+        Pasaje/Block                                                                               polígono   
+                                Casa Nº                                                            Municipio                                                      Departamento                           " required>
+        <br>
+        <br>
+        <label>3.2 Telefono fijo en casa :</label>&emsp;&emsp;
+        <input type="number" style="width: 340px;"  placeholder="Ingresar Telefono">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>3.3 Repite año escolar: </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="si"><span>SI</span>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="no"><span>NO</span>
+        <br>
+        <br>
+        <label>3.4. En qué año cursó su último grado de estudios:</label>
+        <input type="text" size="27" placeholder="Ultimo grado" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>3.5 Estudio parvularia : </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="si"><span>SI</span>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="no"><span>NO</span>
+        <br>
+        <br>
+        <label>3.6. Medio de transporte que utilizará de la casa hacia la institución:&emsp;&emsp;&emsp;&emsp;
+    
+            <label for="iown">Propio</label>
+            <input id="iown" type="checkbox" name="Own" value="propio" required>&emsp;&emsp;
+            &nbsp;
+            
+            <label for="ifamily">Familiar</label>
+            <input id="ifamily" type="checkbox" name="family" value="familia" required>&emsp;
+        
+            <label for="ischool">Escolar</label>
+            <input id="ischool" type="checkbox" name="school" value="escuela" required>&emsp;
+
+            <label for="ipuclic">Público</label>
+            <input id="ipuclic" type="checkbox" name="public" value="publico" required>&emsp;
+        
+            <label for="ipedestrian">Peatonal</label>
+            <input id="ipedestrian" type="checkbox" name="pedestrian" value="peatonal" required>&emsp;
+        
+            <label for="iothers">Otro</label>
+            <input id="iothers" type="text" name="others" size="30" required>
+            <br>
+            <br>
+            <label> 3.7 El estudiante se transladará a la Institución de estudios:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <label >Solo</label>
+    <input type="checkbox" name="only" value="solo" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <label >Lo vendrá a dejar y a traer el encargado:</label>
+    <input  type="checkbox" name="like" value="como" required>
+        <br>
+        <br>
+        <label> 3.8. Nombre del Colegio, Centro o Institución Educativa de Procedencia:</label>
+        <input id="ischool" type="text" size="110" required>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend><b> 4. DATOS SOBRE SITUACIÓN FAMILIAR</b></legend>
+        <label>4.1. NÚMERO DE MIEMBROS QUE HABITAN LA CASA DONDE VIVE EL ESTUDIANTE:</label>
+        <input type="number"style="width: 340px;" placeholder="Ingresar N°">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <br>
+        <br>
+        &emsp;&emsp;&emsp;<label> El estudiante trabaja: </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="si"><span>SI</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="no"><span>NO</span>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Si es el caso, ¿Donde?</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="text" placeholder="Lugar de trabajo ">
+        <br>
+        <br>
+        &emsp;&emsp;&emsp;<label> El estudiante tiene hijos(as):</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="si"><span>SI</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="checkbox" value="no"><span>NO</span>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Si es el caso, ¿Cuantos?</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="text" placeholder="Cuantos trabajos">
+        <br>
+        <br>
+        <label>4.2. EL ESTUDIANTE VIVE CON:</label>
+        <br>
+        <br>
+        <label for="imom">Solo madre</label>&emsp;
+        <input id="imom" type="radio" name="fathers" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="idad">Solo padre</label>
+        <input id="idad" type="radio" name="fathers" required>
+        <br>
+        <br>
+        <label for="ifathers">Ambos padres</label>
+        <input id="ifathers" type="radio" name="fathers" required>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Otros   Especifique:</label>
+        <input type="text" name="fathers" required>
+        <br>
+        <br>
+        <label>4.3 EL ESTUDIANTE DEPENDE ECONOMICAMENTE DE: </label>
+        <br>
+        <br>
+        <label for="imom">Solo madre</label>&emsp;
+        <input id="imom" type="radio" name="fathers" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="idad">Solo padre</label>
+        <input id="idad" type="radio" name="fathers" required>
+        <br>
+        <br>
+        <label for="ifathers">Ambos padres</label>
+        <input id="ifathers" type="radio" name="fathers" required>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Otros   Especifique:</label>
+        <input type="text" name="fathers" required>
+    </fieldset>
+    <br>
+    <br>
+
+    <hr>
+    <br>
+
+    <fieldset>
+        <legend><b> 5. OTROS</b></legend>
+        
+<table border="0px" cellpadding="15px">
+
+    <tr>
+        <td>
+            <label> 5.1. Correo de Google Classroom:</label>
+            <input type="email" name="email" required> @clases.edu.sv
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <label> 5.2. Telefono celular del estudiante:</label>
+            <input type="tel" name="num" required>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <label> 5.3. ¿Ha recibido el estudiante computadorsa Laptop del Gobierno? (MINEDUCYT)</label>
+            <label for="iYes">SI</label>
+            <input id="iYes" type="radio" name="laptop" required>
+    
+            <label for="iNo">NO</label>
+            <input id="iNo" type="radio" name="laptop" required>
+    
+            <label>Marca:</label>
+            <input type="text" required>
+    
+            <label>Serie:</label>
+            <input type="text" required>
+        </td>
+    </tr>
+    </table>
+    </fieldset>
+    <p></p>
+    
+    <fieldset>
+    <legend>
+       <b> 6. APELLIDOS Y NOMBRES DEL PADRE</b>
+    </legend>
+    
+    <table border="0px" cellpadding="15px">
+    <tr>
+        <td>
+    <input id="surname" type="text" name="firstsurname" placeholder="Primer Apellido" size="23" required>
+    <input id="surname" type="text" name="secondsurname" placeholder="Segundo Apellido" size="23" required>
+      </td>  
+        <td>
+    <input id="name" type="text" name="firstname" placeholder="Primer Nombre" size="23" required>
+    <input id="name" type="text" name="secondname" placeholder="Segundo Nombre" size="23" required>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+    <label>Profesión u oficio:</label>
+    <input type="text" name="jobs" size="70" required>
+        </td>
+        <td>
+    <label>DUI</label>
+    <input type="number"style="width: 340px;" placeholder="Ingresar N°">&emsp;&emsp;&emsp;
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="1">
+    <label>Nombre de la empresa donde trabaja:</label>
+    <input type="text" name="company" size="60" required>
+        </td>
+        <td>
+    <label>Tel. celular</label>
+    <input type="tel" name="phone" size="40" required>
+        </td>
+    </tr>
+    
+    <tr>
+        <td >
+    <select>
+        <option>Vive en la misma casa con nosotros</option>
+        <option>Vive con otra familia</option>
+        <option>Está fuera del pais</option>
+        <option> Ya falleció</option>
+    </select>
+        </td>
+    </tr>
+    </table>
+    </fieldset>
+    <p></p>
+    
+    <fieldset>
+        <legend>
+           <b> 7. APELLIDOS Y NOMBRES DE LA MADRE</b>
+        </legend>
+        
+        <table border="0px" cellpadding="15px">
+        <tr>
+            <td>
+        <input id="surname" type="text" name="firstsurname" placeholder="Primer Apellido" size="23" required>
+        <input id="surname" type="text" name="secondsurname" placeholder="Segundo Apellido" size="23" required>
+          </td>  
+            <td>
+        <input id="name" type="text" name="firstname" placeholder="Primer Nombre" size="23" required>
+        <input id="name" type="text" name="secondname" placeholder="Segundo Nombre" size="23" readonly>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+        <label>Profesión u oficio:</label>
+        <input type="text" name="jobs" size="70" required>
+            </td>
+            <td>
+        <label>DUI</label>
+        <input type="number"style="width: 340px;" placeholder="Ingresar N°">&emsp;&emsp;&emsp;
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="1">
+        <label>Nombre de la empresa donde trabaja:</label>
+        <input type="text" name="company" size="60" required>
+            </td>
+            <td>
+        <label>Tel. celular</label>
+        <input type="tel" name="phone" size="40" required>
+            </td>
+        </tr>
+        
+        <tr>
+            <td >
+        <select>
+            <option>Vive en la misma casa con nosotros</option>
+            <option>Vive con otra familia</option>
+            <option>Está fuera del pais</option>
+            <option> Ya falleció</option>
+        </select>
+            </td>
+        </tr>
+        </table>
+        </fieldset>
+        <p></p>
+    <br>
+        <fieldset>
+            <legend>
+               <b>8. APELLIDOS Y NOMBRES DEL RESPONSABLE PARA RETIRAR DOCUMENTACIÓN EXCLUSIVAMENTE</b> 
+            </legend>
+            
+            <table border="0px" cellpadding="15px">
+            <tr>
+                <td>
+            <input id="surname" type="text" name="firstsurname" placeholder="Primer Apellido" size="23" required>
+            <input id="surname" type="text" name="secondsurname" placeholder="Segundo Apellido" size="23" required>
+              </td>  
+                <td>
+            <input id="name" type="text" name="firstname" placeholder="Primer Nombre" size="23" required>
+            <input id="name" type="text" name="secondname" placeholder="Segundo Nombre" size="23"required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+            <label>Profesión u oficio:</label>
+            <input type="text" name="jobs" size="70" required>
+                </td>
+                <td>
+            <label>DUI</label>
+            <input type="number"style="width: 340px;" placeholder="Ingresar N°">&emsp;&emsp;&emsp;
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="1">
+            <label>Nombre de la empresa donde trabaja:</label>
+            <input type="text" name="company" size="60" required>
+                </td>
+                <td>
+            <label>Tel. celular</label>
+            <input type="tel" name="phone" size="40" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td >
+            <select>
+                <option>Vive en la misma casa con nosotros</option>
+                <option>Vive con otra familia</option>
+                <option>Está fuera del pais</option>
+                <option> Ya falleció</option>
+            </select>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2">
+                    <label for="iname">PARENTESCO CON EL ESTUDIANTE DEL RESPONSABLE:</label>
+                    <input id="iname" type="text" name="name" size="70" required>
+                </td>
+            </tr>
+            </table>
+            </fieldset>
+    <p></p>
+    <br>
+    <fieldset>
+    <legend>
+      <b> 9. DATOS DE SALUD DEL (LA) ESTUDIENTE</b> 
+    </legend>
+    <table border="0px" cellpadding="15px">
+        <tr>
+            <td>
+                <label>9.1. Si el estudiante padece alguna enfermedad o alérgia escribala:</label>
+                <input type="text" name="illness" size="80" required>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label>9.2. Si el estudiante tiene Prescritos medicamentos de carácter permanente escribalos:</label>
+                <input type="text" name="medicines" size="55" required>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label>9.3. En caso de emergencia llamar a Nombre de:</label>
+                <input type="text" name="emergecy" size="60" required>
+                
+                <label>Teléfono:</label>
+                <input type="tel" name="number" size="20" required>
+            </td>
+            <br>
+        </tr>
+    </table>
+    </fieldset>
+ <br>
+ <br>   
+    <fieldset>
+        <legend><b>10. OBSERVACIONES DE ESTRICTO CUMPLIMIENTO PARA REGISTRO ACADEMICO</b>
+    
+        </legend>
+        <table><font size="3" face="Arial Black">
+        En caso de que el estudiante se retire de la institución, la documentación únicamente será entregada a la persona que ha quedado asignada como
+        responsable en la Hoja de Matrícula del año en curso; no se le podrá entregar ni al estudiante ni a ninguna otra persona más, aunque sea su podre 
+        o su madre. 
+    </font></table>
+    
+    </fieldset>
+    <br>
+    <br>
+    <div class="subir">
+    <label>
+        <center>
+
+    Al hacer click en "aceptar" usted estaria firmando como padre, madre y/o responsable de familia del estudiante; 
+    de no aceptar el alumno no quedará inscrito dentro de la plataforma y no se le reserva cupo.
+    </label>
+    <br>
+    <br>
+    <br>
+    <input type="submit" name="sub" id="enviar" value="Aceptar matricula" required>
+    <input type="reset" name="reset" id="borrar" value="Borrar formulario" required>
+    </div>
+    
+</center> 
+</body>
+</html>

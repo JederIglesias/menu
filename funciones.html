@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones html</title>
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <h1>FUNCIONES </h1>
+    <script>
+   
+    var opc;
+
+    opc=parseInt(prompt("Ingrese la opcionq ue deseas ver"))
+    while(opc<1 || opc>4)
+    {
+        opc=parseInt(prompt("ingrese la opcion qeu desees ver"));
+    }
+    switch(opc)
+    {
+        case 1:
+        {
+            semanita();
+            break;
+        }
+       case 2:
+        {
+            document.write("Imprimiendo la frase"+"<br>")
+            frase();
+            break;
+        }
+        case 3:
+        {
+            document.write("Imprimiendo la serie"+"<br>")
+            serie();
+            break;
+
+        }
+        case 4:
+            {
+              document.write("Imprimiendo la serie viceversa"+"<br>")
+              alreves();
+              break;
+
+            }
+    }
+    
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+
